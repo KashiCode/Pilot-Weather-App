@@ -1,6 +1,5 @@
 import React from 'react'
 import SearchBar from '../Components/SearchBar'
-import Map from '../Components/Map'
 
 const BottomDashboard = () => {
   return (
@@ -23,7 +22,7 @@ const BottomDashboard = () => {
             </div>
         </div>
         <div className="">
-            {/* <Map/> */}
+  
         </div>
       </nav>
 
