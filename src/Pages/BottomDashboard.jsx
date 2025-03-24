@@ -1,48 +1,46 @@
-import React from 'react'
-import SearchBar from '../Components/SearchBar'
+import React from 'react';
+import SearchBar from '../Components/SearchBar';
 
 const BottomDashboard = () => {
   return (
-    <div>
+    <div className="bottom-dashboard">
       {/* Live Weather Map */}
-      <nav className='p-10 flex flex-col gap-10'>
-        <div className='flex justify-between'>
-            <div className='text-neutral-100 text-2xl font-medium'>
-                <p>Live Weather Map</p>
-            </div>
-            <div className='w-[35%] pl-4 pt-1 text-sm font-light bg-slate-700 rounded-2xl shadow-[0px_6px_20px_0px_rgba(0,0,0,0.20)] border border-gray-600 rounded-[16px]'>
-                <SearchBar />
-            </div>
+      <nav className="weather-map-nav">
+        <div className="weather-map-nav__header">
+          <div className="weather-map-nav__title">
+            <p>Live Weather Map</p>
+          </div>
+          <div className="weather-map-nav__search-container">
+            <SearchBar />
+          </div>
         </div>
-        <div>
-            <div className="flex gap-10 text-neutral-300 text-md font-medium">
-            <a href="#">Overview</a>
-            <a href="#">Weather Map</a>
-            <a href="#">Reports</a>
-            </div>
+        <div className="weather-map-nav__links">
+          <a href="#" className="weather-map-nav__link">Overview</a>
+          <a href="#" className="weather-map-nav__link">Weather Map</a>
+          <a href="#" className="weather-map-nav__link">Reports</a>
         </div>
-        <div className="">
-  
+        <div className="weather-map-content">
+          {/* Map content would go here */}
         </div>
       </nav>
 
       {/* Quick Reports */}
       <section className="quick-reports">
-        <h3>Quick Reports</h3>
-        <div className="tabs">
-          <button>METAR</button>
-          <button>TAF</button>
-          <button>SIGMET</button>
-          <button>AIRMET</button>
-          <button>PIREP</button>
+        <h3 className="quick-reports__title">Quick Reports</h3>
+        <div className="quick-reports__tabs">
+          <button className="quick-reports__tab">METAR</button>
+          <button className="quick-reports__tab">TAF</button>
+          <button className="quick-reports__tab">SIGMET</button>
+          <button className="quick-reports__tab">AIRMET</button>
+          <button className="quick-reports__tab">PIREP</button>
         </div>
-        <div className="report">
-          <h4>Latest METAR for EGLL</h4>
-          <p>EGLL 251450Z 22015KT 9999 BKN020 12/08 Q1013 NOSIG</p>
+        <div className="quick-reports__content">
+          <h4 className="quick-reports__report-title">Latest METAR for EGLL</h4>
+          <p className="quick-reports__report-text">EGLL 251450Z 22015KT 9999 BKN020 12/08 Q1013 NOSIG</p>
         </div>
       </section>
     </div>
   );
 };
 
-export default BottomDashboard
+export default BottomDashboard;
