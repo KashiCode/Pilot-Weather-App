@@ -3,9 +3,7 @@ import WeatherDetails from "../Components/WeatherDetails";
 import SideBar from "../Components/SideBar";
 import Dropdown from "../Components/Dropdown";
 
-
-
-const API_KEY = "fea9b6cd12a559d291134b1904bc1281"; // OpenWeather API key goes here. 
+const API_KEY = "fea9b6cd12a559d291134b1904bc1281";
 const airports = [
   { code: "London", name: "London Heathrow" },
   { code: "Paris", name: "Paris Charles de Gaulle" },
@@ -15,126 +13,145 @@ const airports = [
 ];
 
 const DashboardPilot = () => {
-    const [selectedAirport, setSelectedAirport] = useState(airports[0].code);
-    const [weather, setWeather] = useState(null);
-    const [loading, setLoading] = useState(true);
+  const [selectedAirport, setSelectedAirport] = useState(airports[0].code);
+  const [weather, setWeather] = useState(null);
+  const [forecast, setForecast] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        setLoading(true);
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedAirport}&appid=${API_KEY}&units=metric`)
-        .then((response) => response.json())
-        .then((data) => {
-            if (data.cod === 200 && data.main) {
-            setWeather({
-                temp: data.main.temp,
-                feelsLike: data.main.feels_like,
-                humidity: data.main.humidity,
-                windSpeed: data.wind.speed,
-                uvIndex: 4, // Placeholder, OpenWeather requires a separate API for UV
-                visibility: data.visibility ? data.visibility / 1000 : "N/A", // Convert meters to km
-                description: data.weather[0].description,
-                icon: data.weather[0].icon,
-            });
-            } else {
-            setWeather(null);
-            }
-            setLoading(false);
-        })
-        .catch((error) => {
-            console.error("Error fetching weather data:", error);
-            setWeather(null);
-            setLoading(false);
-        });
-    }, [selectedAirport]);
+  useEffect(() => {
+    setLoading(true);
+
+    const fetchData = async () => {
+      try {
+        const [weatherRes, forecastRes] = await Promise.all([
+          fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedAirport}&appid=${API_KEY}&units=metric`),
+          fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${selectedAirport}&appid=${API_KEY}&units=metric`)
+        ]);
+
+        const weatherData = await weatherRes.json();
+        const forecastData = await forecastRes.json();
+
+        if (weatherData.cod === 200 && weatherData.main) {
+          setWeather({
+            temp: weatherData.main.temp,
+            feelsLike: weatherData.main.feels_like,
+            humidity: weatherData.main.humidity,
+            windSpeed: weatherData.wind.speed,
+            uvIndex: 4,
+            visibility: weatherData.visibility ? weatherData.visibility / 1000 : "N/A",
+            description: weatherData.weather[0].description,
+            icon: weatherData.weather[0].icon,
+          });
+        } else {
+          setWeather(null);
+        }
+
+        if (forecastData.cod === "200") {
+          setForecast(forecastData.list);
+        } else {
+          setForecast([]);
+        }
+      } catch (error) {
+        console.error("Error fetching weather/forecast data:", error);
+        setWeather(null);
+        setForecast([]);
+      }
+
+      setLoading(false);
+    };
+
+    fetchData();
+  }, [selectedAirport]);
+
+  const formatHour = (timestamp) =>
+    new Date(timestamp * 1000).toLocaleTimeString([], { hour: "2-digit" });
+
+  const formatDay = (timestamp) =>
+    new Date(timestamp * 1000).toLocaleDateString("en-US", { weekday: "long" });
+
+  const hourlyForecast = forecast.slice(0, 4);
+  const dailyForecast = forecast.filter((_, i) => i % 8 === 0).slice(0, 4);
 
   return (
     <div>
-      {/* Navbar */}
-      <nav className="navbar"> 
+      <nav className="navbar">
         <div className="navbar__logo">
-            <p>Aviation WX</p>
+          <p>Aviation WX</p>
         </div>
-        {/* Airport DropDown Menu */}
         <div className="navbar__dropdown">
-            <Dropdown airports={airports} setSelectedAirport={setSelectedAirport} />
+          <Dropdown airports={airports} setSelectedAirport={setSelectedAirport} />
         </div>
         <div className="navbar__nav-links">
           <a href="#" className="navbar__link">Overview</a>
           <a href="#" className="navbar__link">Weather Map</a>
           <a href="#" className="navbar__link">Reports</a>
         </div>
-        <SideBar/>
+        <SideBar />
       </nav>
-      <p className="weather-header__title">Current Airport Weather</p>
-        <div className="weather-dashboard">
-            {/* Weather Overview */}
-            <div className="weather-header">
-                <div className="weather-header__dropdown-container">
-                    <Dropdown airports={airports} setSelectedAirport={setSelectedAirport}/>
+
+      <div className="weather-header">
+        <p className="weather-header__title">Current Airport Weather</p>
+        <div className="weather-header__dropdown-container">
+          <Dropdown airports={airports} setSelectedAirport={setSelectedAirport} />
+        </div>
+      </div>
+
+      <div className="weather-dashboard">
+        {loading ? (
+          <p className="weather-dashboard__loading">Loading weather data.</p>
+        ) : weather ? (
+          <section className="weather-dashboard__overview">
+            <div className="weather-card-current">
+              <div className="navy-box">
+                <h2 className="weather-card__title">{airports.find(a => a.code === selectedAirport)?.name} ({selectedAirport})</h2>
+                <div className="weather-card__temp-container">
+                  <img src={`https://openweathermap.org/img/wn/${weather.icon}.png`} className="weather-card__icon" alt="Weather icon" />
+                  <div className="weather-card__temp-value">{Math.round(weather.temp)}°C</div>
                 </div>
+                <div className="weather-card__details">
+                  <p>Feels like: {weather.feelsLike}°C</p>
+                  <p>{weather.description.charAt(0).toUpperCase() + weather.description.slice(1)}</p>
+                </div>
+              </div>
             </div>
 
-            {loading ? (
-                <p className="weather-dashboard__loading">Loading weather data.</p>
-            ) : weather ? (
-                <section className="weather-dashboard__overview">
-                {/* Current Weather Card */}
-                <div className="weather-card-current">
-                    <div className="navy-box">
-                        <h2 className="weather-card__title">{airports.find(a => a.code === selectedAirport)?.name} ({selectedAirport})</h2>
-                        <div className="weather-card__temp-container">
-                        <img 
-                            src={`https://openweathermap.org/img/wn/${weather.icon}.png`} 
-                            className="weather-card__icon" 
-                            alt="Weather icon"
-                        />
-                        <div className="weather-card__temp-value">{Math.round(weather.temp)}°C</div>
-                        </div>
-                        <div className="weather-card__details">
-                        <p>Feels like: {weather.feelsLike}°C</p>
-                        <p>{weather.description.charAt(0).toUpperCase() + weather.description.slice(1)}</p>
-                        </div>
-                    </div>
+            <div className="weather-card-hourly">
+              <div className="navy-box">
+                <div className="hourly-forecast__times">
+                  {hourlyForecast.map((h, i) => (
+                    <div className="hourly-forecast__time" key={i}>{i === 0 ? "NOW" : formatHour(h.dt)}</div>
+                  ))}
                 </div>
+                <div className="hourly-forecast__icons">
+                  {hourlyForecast.map((h, i) => (
+                    <img key={i} src={`https://openweathermap.org/img/wn/${h.weather[0].icon}.png`} alt={h.weather[0].description} />
+                  ))}
+                </div>
+                <div className="hourly-forecast__temps">
+                  {hourlyForecast.map((h, i) => (
+                    <div className="hourly-forecast__temp" key={i}>{Math.round(h.main.temp)}°C</div>
+                  ))}
+                </div>
+              </div>
+            </div>
 
-                {/* Hourly Forecast Card */}
-                <div className="weather-card-hourly">
-                    <div className="navy-box">
-                        <div className="weather-card-hourly-inner">
-                            <div className="hourly-forecast__times">
-                                <div className="hourly-forecast__time">NOW</div>
-                                <div className="hourly-forecast__time">10AM</div>
-                                <div className="hourly-forecast__time">11AM</div>
-                                <div className="hourly-forecast__time">12PM</div>
-                            </div>
-                            <div className="hourly-forecast__icons">
-                                <img src={`https://openweathermap.org/img/wn/${weather.icon}.png`} alt="" />
-                            </div>
-                            <div className="hourly-forecast__temps">
-                                <div className="hourly-forecast__temp">{Math.round(weather.temp)}°C</div>
-                                <div className="hourly-forecast__temp"></div>
-                                <div className="hourly-forecast__temp"></div>
-                                <div className="hourly-forecast__temp"></div>
-                            </div>
-                        </div>
+            <div className="weather-card-daily">
+              <div className="navy-box">
+                <div className="daily-forecast">
+                  {dailyForecast.map((d, i) => (
+                    <div className="daily-forecast__row" key={i}>
+                      <span className="daily-forecast__day">{i === 0 ? "Today" : formatDay(d.dt)}</span>
+                      <img className="daily-forecast__icon" src={`https://openweathermap.org/img/wn/${d.weather[0].icon}.png`} alt={d.weather[0].description} />
+                      <span className="daily-forecast__temp">{Math.round(d.main.temp)}°C</span>
                     </div>
+                  ))}
                 </div>
-
-                {/* Daily Forecast Card */}
-                <div className="weather-card-daily">
-                    <div className="navy-box">
-                    <div className="daily-forecast">
-                    <div className="daily-forecast__day">Today</div>
-                    <div className="daily-forecast__day">Tuesday</div>
-                    <div className="daily-forecast__day">Wednesday</div>
-                    <div className="daily-forecast__day">Thursday</div>
-                    </div>  
-                    </div>
-                </div>
-                </section>
-            ) : (
-                <p className="weather-dashboard__error">⚠️ Weather data unavailable ⚠️</p>
-            )}
+              </div>
+            </div>
+          </section>
+        ) : (
+          <p className="weather-dashboard__error">⚠️ Weather data unavailable ⚠️</p>
+        )}
 
             {/* Weather Details */}
             {/* Humidity Card */}

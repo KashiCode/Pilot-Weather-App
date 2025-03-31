@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchBar from '../Components/SearchBar';
+import Map from '../Components/Map';
 
 const BottomDashboard = () => {
   return (
@@ -15,12 +16,12 @@ const BottomDashboard = () => {
           </div>
         </div>
         <div className="weather-map-nav__links">
-          <a href="#" className="weather-map-nav__link">Overview</a>
-          <a href="#" className="weather-map-nav__link">Weather Map</a>
-          <a href="#" className="weather-map-nav__link">Reports</a>
+          <a href="#" className="weather-map-nav__link">Wind Patterns</a>
+          <a href="#" className="weather-map-nav__link">Percipitation</a>
+          <a href="#" className="weather-map-nav__link">Storm Tracking</a>
         </div>
         <div className="weather-map-content">
-          {/* Map content would go here */}
+          {/* <Map/> */}
         </div>
       </nav>
 

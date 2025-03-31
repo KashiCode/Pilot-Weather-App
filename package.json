@@ -12,8 +12,13 @@
   "dependencies": {
     "@fontsource/inter": "^5.2.5",
     "@tailwindcss/vite": "^4.0.14",
+    "axios": "^1.8.4",
+    "leaflet": "^1.9.4",
+    "mapbox-gl": "^3.10.0",
+    "mapbox-gl-leaflet": "^0.0.16",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0",
     "tailwindcss": "^4.0.14"
   },
   "devDependencies": {
