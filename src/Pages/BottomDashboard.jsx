@@ -2,7 +2,10 @@ import React from 'react';
 import SearchBar from '../Components/SearchBar';
 import QuickReports from "../Components/QuickReports";  //Quickreports imported from components.
 
-const BottomDashboard = () => {
+
+
+const BottomDashboard = ({ selectedAirport }) => {   //Passes the airports selected to the QuickReport. 
+
   return (
     <div className="bottom-dashboard">
       {/* Live Weather Map */}
