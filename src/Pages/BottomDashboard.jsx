@@ -2,7 +2,7 @@ import React from 'react';
 import SearchBar from '../Components/SearchBar';
 import Map from '../Components/Map';
 
-const BottomDashboard = () => {
+const BottomDashboard = ({ city, setCity}) => {
   return (
     <div className="bottom-dashboard">
       {/* Live Weather Map */}
@@ -21,7 +21,7 @@ const BottomDashboard = () => {
           <a href="#" className="weather-map-nav__link">Storm Tracking</a>
         </div>
         <div className="weather-map-content">
-          {/* <Map/> */}
+          {/* <Map city={city}/> */}
         </div>
       </nav>
 
