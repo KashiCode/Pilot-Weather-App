@@ -15,10 +15,10 @@ const SearchBar = () => {
         const response = await fetch('https://opensky-network.org/api/states/all');
         const data = await response.json();
         const flights = data.states
-          .map((flight) => flight[1]) // Flight callsign
+          .map((flight) => flight[1])
           .filter((callsign) => callsign && callsign.toLowerCase().includes(query.toLowerCase()));
 
-        setSuggestions(flights.slice(0, 10)); // Limit results
+        setSuggestions(flights.slice(0, 10)); 
       } catch (error) {
         console.error('Error fetching flights:', error);
       }
