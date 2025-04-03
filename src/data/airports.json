@@ -1,0 +1,2402 @@
+[
+    {
+      "gps_code": "AGGH",
+      "city": "Honiara",
+      "name": "Honiara International Airport"
+    },
+    {
+      "gps_code": "AYPY",
+      "city": "Port Moresby",
+      "name": "Port Moresby Jacksons International Airport"
+    },
+    {
+      "gps_code": "BIKF",
+      "city": "Reykjav\u00edk",
+      "name": "Keflavik International Airport"
+    },
+    {
+      "gps_code": "CYEG",
+      "city": "Edmonton",
+      "name": "Edmonton International Airport"
+    },
+    {
+      "gps_code": "CYHZ",
+      "city": "Halifax",
+      "name": "Halifax / Stanfield International Airport"
+    },
+    {
+      "gps_code": "CYOW",
+      "city": "Ottawa",
+      "name": "Ottawa Macdonald-Cartier International Airport"
+    },
+    {
+      "gps_code": "CYQB",
+      "city": "Quebec",
+      "name": "Quebec Jean Lesage International Airport"
+    },
+    {
+      "gps_code": "CYUL",
+      "city": "Montr\u00e9al",
+      "name": "Montreal / Pierre Elliott Trudeau International Airport"
+    },
+    {
+      "gps_code": "CYVR",
+      "city": "Vancouver",
+      "name": "Vancouver International Airport"
+    },
+    {
+      "gps_code": "CYWG",
+      "city": "Winnipeg",
+      "name": "Winnipeg / James Armstrong Richardson International Airport"
+    },
+    {
+      "gps_code": "CYYC",
+      "city": "Calgary",
+      "name": "Calgary International Airport"
+    },
+    {
+      "gps_code": "CYYT",
+      "city": "St. John's",
+      "name": "St. John's International Airport"
+    },
+    {
+      "gps_code": "CYYZ",
+      "city": "Toronto",
+      "name": "Toronto Lester B. Pearson International Airport"
+    },
+    {
+      "gps_code": "DAAG",
+      "city": "Algiers",
+      "name": "Houari Boumediene Airport"
+    },
+    {
+      "gps_code": "DGAA",
+      "city": "Accra",
+      "name": "Kotoka International Airport"
+    },
+    {
+      "gps_code": "DNAA",
+      "city": "Abuja",
+      "name": "Nnamdi Azikiwe International Airport"
+    },
+    {
+      "gps_code": "DNMM",
+      "city": "Lagos",
+      "name": "Murtala Muhammed International Airport"
+    },
+    {
+      "gps_code": "DRRN",
+      "city": "Niamey",
+      "name": "Diori Hamani International Airport"
+    },
+    {
+      "gps_code": "DTTA",
+      "city": "Tunis",
+      "name": "Tunis Carthage International Airport"
+    },
+    {
+      "gps_code": "EBBR",
+      "city": "Zaventem",
+      "name": "Brussels Airport"
+    },
+    {
+      "gps_code": "EDDB",
+      "city": "Berlin",
+      "name": "Berlin Brandenburg Airport"
+    },
+    {
+      "gps_code": "EDDF",
+      "city": "Frankfurt am Main",
+      "name": "Frankfurt Airport"
+    },
+    {
+      "gps_code": "EDDH",
+      "city": "Hamburg",
+      "name": "Hamburg Helmut Schmidt Airport"
+    },
+    {
+      "gps_code": "EDDK",
+      "city": "K\u00f6ln (Cologne)",
+      "name": "Cologne Bonn Airport"
+    },
+    {
+      "gps_code": "EDDL",
+      "city": "D\u00fcsseldorf",
+      "name": "D\u00fcsseldorf Airport"
+    },
+    {
+      "gps_code": "EDDM",
+      "city": "Munich",
+      "name": "Munich Airport"
+    },
+    {
+      "gps_code": "EDDN",
+      "city": "Nuremberg",
+      "name": "Nuremberg Airport"
+    },
+    {
+      "gps_code": "EDDP",
+      "city": "Schkeuditz",
+      "name": "Leipzig/Halle Airport"
+    },
+    {
+      "gps_code": "EDDS",
+      "city": "Stuttgart",
+      "name": "Stuttgart Airport"
+    },
+    {
+      "gps_code": "EDDV",
+      "city": "Hannover",
+      "name": "Hannover Airport"
+    },
+    {
+      "gps_code": "EETN",
+      "city": "Tallinn",
+      "name": "Lennart Meri Tallinn Airport"
+    },
+    {
+      "gps_code": "EFHK",
+      "city": "Helsinki (Vantaa)",
+      "name": "Helsinki Vantaa Airport"
+    },
+    {
+      "gps_code": "EGAA",
+      "city": "Belfast",
+      "name": "Belfast International Airport"
+    },
+    {
+      "gps_code": "EGBB",
+      "city": "Birmingham, West Midlands",
+      "name": "Birmingham Airport"
+    },
+    {
+      "gps_code": "EGCC",
+      "city": "Manchester, Greater Manchester",
+      "name": "Manchester Airport"
+    },
+    {
+      "gps_code": "EGGW",
+      "city": "Luton, Bedfordshire",
+      "name": "London Luton Airport"
+    },
+    {
+      "gps_code": "EGKK",
+      "city": "London",
+      "name": "London Gatwick Airport"
+    },
+    {
+      "gps_code": "EGLL",
+      "city": "London",
+      "name": "London Heathrow Airport"
+    },
+    {
+      "gps_code": "EGPF",
+      "city": "Paisley, Renfrewshire",
+      "name": "Glasgow International Airport"
+    },
+    {
+      "gps_code": "EGPH",
+      "city": "Edinburgh",
+      "name": "Edinburgh Airport"
+    },
+    {
+      "gps_code": "EGSS",
+      "city": "London",
+      "name": "London Stansted Airport"
+    },
+    {
+      "gps_code": "EHAM",
+      "city": "Amsterdam",
+      "name": "Amsterdam Airport Schiphol"
+    },
+    {
+      "gps_code": "EHEH",
+      "city": "Eindhoven",
+      "name": "Eindhoven Airport"
+    },
+    {
+      "gps_code": "EIDW",
+      "city": "Dublin",
+      "name": "Dublin Airport"
+    },
+    {
+      "gps_code": "EINN",
+      "city": "Shannon",
+      "name": "Shannon Airport"
+    },
+    {
+      "gps_code": "EKBI",
+      "city": "Billund",
+      "name": "Billund Airport"
+    },
+    {
+      "gps_code": "EKCH",
+      "city": "Copenhagen",
+      "name": "Copenhagen Kastrup Airport"
+    },
+    {
+      "gps_code": "ELLX",
+      "city": "Luxembourg",
+      "name": "Luxembourg-Findel International Airport"
+    },
+    {
+      "gps_code": "ENBR",
+      "city": "Bergen",
+      "name": "Bergen Airport, Flesland"
+    },
+    {
+      "gps_code": "ENGM",
+      "city": "Oslo (Gardermoen)",
+      "name": "Oslo Airport, Gardermoen"
+    },
+    {
+      "gps_code": "ENTC",
+      "city": "Troms\u00f8",
+      "name": "Troms\u00f8 Airport, Langnes"
+    },
+    {
+      "gps_code": "ENVA",
+      "city": "Trondheim",
+      "name": "Trondheim Airport, V\u00e6rnes"
+    },
+    {
+      "gps_code": "ENZV",
+      "city": "Stavanger",
+      "name": "Stavanger Airport, Sola"
+    },
+    {
+      "gps_code": "EPGD",
+      "city": "Gda\u0144sk",
+      "name": "Gda\u0144sk Lech Wa\u0142\u0119sa Airport"
+    },
+    {
+      "gps_code": "EPKK",
+      "city": "Balice",
+      "name": "Krak\u00f3w John Paul II International Airport"
+    },
+    {
+      "gps_code": "EPWA",
+      "city": "Warsaw",
+      "name": "Warsaw Chopin Airport"
+    },
+    {
+      "gps_code": "ESGG",
+      "city": "G\u00f6teborg",
+      "name": "G\u00f6teborg Landvetter Airport"
+    },
+    {
+      "gps_code": "ESSA",
+      "city": "Stockholm",
+      "name": "Stockholm-Arlanda Airport"
+    },
+    {
+      "gps_code": "EVRA",
+      "city": "Riga",
+      "name": "Riga International Airport"
+    },
+    {
+      "gps_code": "EYVI",
+      "city": "Vilnius",
+      "name": "Vilnius International Airport"
+    },
+    {
+      "gps_code": "FACT",
+      "city": "Cape Town",
+      "name": "Cape Town International Airport"
+    },
+    {
+      "gps_code": "FALE",
+      "city": "Durban",
+      "name": "King Shaka International Airport"
+    },
+    {
+      "gps_code": "FAOR",
+      "city": "Johannesburg",
+      "name": "O.R. Tambo International Airport"
+    },
+    {
+      "gps_code": "FBSK",
+      "city": "Gaborone",
+      "name": "Sir Seretse Khama International Airport"
+    },
+    {
+      "gps_code": "FDSK",
+      "city": "Mpaka",
+      "name": "King Mswati III International Airport"
+    },
+    {
+      "gps_code": "FIMP",
+      "city": "Plaine Magnien",
+      "name": "Sir Seewoosagur Ramgoolam International Airport"
+    },
+    {
+      "gps_code": "FLKK",
+      "city": "Lusaka",
+      "name": "Kenneth Kaunda International Airport"
+    },
+    {
+      "gps_code": "FMEE",
+      "city": "Sainte-Marie",
+      "name": "Roland Garros Airport"
+    },
+    {
+      "gps_code": "FMMI",
+      "city": "Antananarivo",
+      "name": "Ivato Airport"
+    },
+    {
+      "gps_code": "FNLU",
+      "city": "Luanda",
+      "name": "Quatro de Fevereiro International Airport"
+    },
+    {
+      "gps_code": "FPST",
+      "city": "S\u00e3o Tom\u00e9",
+      "name": "S\u00e3o Tom\u00e9 International Airport"
+    },
+    {
+      "gps_code": "FQMA",
+      "city": "Maputo",
+      "name": "Maputo Airport"
+    },
+    {
+      "gps_code": "FSIA",
+      "city": "Mahe Island",
+      "name": "Seychelles International Airport"
+    },
+    {
+      "gps_code": "FTTJ",
+      "city": "N'Djamena",
+      "name": "N'Djamena International Airport"
+    },
+    {
+      "gps_code": "FVRG",
+      "city": "Harare",
+      "name": "Robert Gabriel Mugabe International Airport"
+    },
+    {
+      "gps_code": "FYWH",
+      "city": "Windhoek",
+      "name": "Hosea Kutako International Airport"
+    },
+    {
+      "gps_code": "FZAA",
+      "city": "Kinshasa",
+      "name": "Ndjili International Airport"
+    },
+    {
+      "gps_code": "GABS",
+      "city": "Bamako",
+      "name": "Modibo Keita International Airport"
+    },
+    {
+      "gps_code": "GBYD",
+      "city": "Yundum",
+      "name": "Banjul International Airport"
+    },
+    {
+      "gps_code": "GCFV",
+      "city": "El Matorral",
+      "name": "Fuerteventura Airport"
+    },
+    {
+      "gps_code": "GCLP",
+      "city": "Gran Canaria Island",
+      "name": "Gran Canaria Airport"
+    },
+    {
+      "gps_code": "GCRR",
+      "city": "San Bartolom\u00e9",
+      "name": "C\u00e9sar Manrique-Lanzarote Airport"
+    },
+    {
+      "gps_code": "GCTS",
+      "city": "Tenerife",
+      "name": "Tenerife Sur Airport"
+    },
+    {
+      "gps_code": "GFLL",
+      "city": "Freetown (Lungi-Town)",
+      "name": "Lungi International Airport"
+    },
+    {
+      "gps_code": "GLRB",
+      "city": "Monrovia",
+      "name": "Roberts International Airport"
+    },
+    {
+      "gps_code": "GMAD",
+      "city": "Agadir (Temsia)",
+      "name": "Al Massira Airport"
+    },
+    {
+      "gps_code": "GMFF",
+      "city": "Sa\u00efss",
+      "name": "Fes Sa\u00efss International Airport"
+    },
+    {
+      "gps_code": "GMME",
+      "city": "Rabat",
+      "name": "Rabat-Sal\u00e9 Airport"
+    },
+    {
+      "gps_code": "GMMN",
+      "city": "Casablanca",
+      "name": "Mohammed V International Airport"
+    },
+    {
+      "gps_code": "GMMX",
+      "city": "Marrakech",
+      "name": "Menara Airport"
+    },
+    {
+      "gps_code": "GMTT",
+      "city": "Tangier",
+      "name": "Tangier Ibn Battuta Airport"
+    },
+    {
+      "gps_code": "GOBD",
+      "city": "Dakar",
+      "name": "Blaise Diagne International Airport"
+    },
+    {
+      "gps_code": "GQNO",
+      "city": "Nouakchott",
+      "name": "Nouakchott\u2013Oumtounsy International Airport"
+    },
+    {
+      "gps_code": "GVAC",
+      "city": "Espargos",
+      "name": "Am\u00edlcar Cabral International Airport"
+    },
+    {
+      "gps_code": "GVNP",
+      "city": "Praia",
+      "name": "Nelson Mandela International Airport"
+    },
+    {
+      "gps_code": "HAAB",
+      "city": "Addis Ababa",
+      "name": "Addis Ababa Bole International Airport"
+    },
+    {
+      "gps_code": "HDAM",
+      "city": "Djibouti City",
+      "name": "Djibouti-Ambouli Airport"
+    },
+    {
+      "gps_code": "HECA",
+      "city": "Cairo",
+      "name": "Cairo International Airport"
+    },
+    {
+      "gps_code": "HEGN",
+      "city": "Hurghada",
+      "name": "Hurghada International Airport"
+    },
+    {
+      "gps_code": "HESG",
+      "city": "Suhaj",
+      "name": "Suhaj Mubarak International Airport"
+    },
+    {
+      "gps_code": "HESH",
+      "city": "Sharm El Sheikh",
+      "name": "Sharm El Sheikh International Airport"
+    },
+    {
+      "gps_code": "HJJJ",
+      "city": "Juba",
+      "name": "Juba International Airport"
+    },
+    {
+      "gps_code": "HKJK",
+      "city": "Nairobi",
+      "name": "Jomo Kenyatta International Airport"
+    },
+    {
+      "gps_code": "HKMO",
+      "city": "Mombasa",
+      "name": "Moi International Airport"
+    },
+    {
+      "gps_code": "HLLM",
+      "city": "Tripoli",
+      "name": "Mitiga International Airport"
+    },
+    {
+      "gps_code": "HRYR",
+      "city": "Kigali",
+      "name": "Kigali International Airport"
+    },
+    {
+      "gps_code": "HSSK",
+      "city": "Khartoum",
+      "name": "Khartoum International Airport"
+    },
+    {
+      "gps_code": "HTDA",
+      "city": "Dar es Salaam",
+      "name": "Julius Nyerere International Airport"
+    },
+    {
+      "gps_code": "HTZA",
+      "city": "Zanzibar",
+      "name": "Abeid Amani Karume International Airport"
+    },
+    {
+      "gps_code": "HUEN",
+      "city": "Kampala",
+      "name": "Entebbe International Airport"
+    },
+    {
+      "gps_code": "WARD",
+      "city": "Kediri",
+      "name": "Dhoho International Airport"
+    },
+    {
+      "gps_code": "KABQ",
+      "city": "Albuquerque",
+      "name": "Albuquerque International Sunport"
+    },
+    {
+      "gps_code": "KADW",
+      "city": "Camp Springs",
+      "name": "Joint Base Andrews"
+    },
+    {
+      "gps_code": "KATL",
+      "city": "Atlanta",
+      "name": "Hartsfield Jackson Atlanta International Airport"
+    },
+    {
+      "gps_code": "KAUS",
+      "city": "Austin",
+      "name": "Austin Bergstrom International Airport"
+    },
+    {
+      "gps_code": "KBDL",
+      "city": "Hartford",
+      "name": "Bradley International Airport"
+    },
+    {
+      "gps_code": "KBNA",
+      "city": "Nashville",
+      "name": "Nashville International Airport"
+    },
+    {
+      "gps_code": "KBOS",
+      "city": "Boston",
+      "name": "Logan International Airport"
+    },
+    {
+      "gps_code": "KBUF",
+      "city": "Buffalo",
+      "name": "Buffalo Niagara International Airport"
+    },
+    {
+      "gps_code": "KBWI",
+      "city": "Baltimore",
+      "name": "Baltimore/Washington International Thurgood Marshall Airport"
+    },
+    {
+      "gps_code": "KCLE",
+      "city": "Cleveland",
+      "name": "Cleveland Hopkins International Airport"
+    },
+    {
+      "gps_code": "KCLT",
+      "city": "Charlotte",
+      "name": "Charlotte Douglas International Airport"
+    },
+    {
+      "gps_code": "KCMH",
+      "city": "Columbus",
+      "name": "John Glenn Columbus International Airport"
+    },
+    {
+      "gps_code": "KCVG",
+      "city": "Cincinnati / Covington",
+      "name": "Cincinnati Northern Kentucky International Airport"
+    },
+    {
+      "gps_code": "KDCA",
+      "city": "Washington",
+      "name": "Ronald Reagan Washington National Airport"
+    },
+    {
+      "gps_code": "KDEN",
+      "city": "Denver",
+      "name": "Denver International Airport"
+    },
+    {
+      "gps_code": "KDFW",
+      "city": "Dallas-Fort Worth",
+      "name": "Dallas Fort Worth International Airport"
+    },
+    {
+      "gps_code": "KDTW",
+      "city": "Detroit",
+      "name": "Detroit Metropolitan Wayne County Airport"
+    },
+    {
+      "gps_code": "KEWR",
+      "city": "Newark",
+      "name": "Newark Liberty International Airport"
+    },
+    {
+      "gps_code": "KFLL",
+      "city": "Fort Lauderdale",
+      "name": "Fort Lauderdale Hollywood International Airport"
+    },
+    {
+      "gps_code": "KIAD",
+      "city": "Dulles",
+      "name": "Washington Dulles International Airport"
+    },
+    {
+      "gps_code": "KIAH",
+      "city": "Houston",
+      "name": "George Bush Intercontinental Houston Airport"
+    },
+    {
+      "gps_code": "KIND",
+      "city": "Indianapolis",
+      "name": "Indianapolis International Airport"
+    },
+    {
+      "gps_code": "KJAX",
+      "city": "Jacksonville",
+      "name": "Jacksonville International Airport"
+    },
+    {
+      "gps_code": "KJFK",
+      "city": "New York",
+      "name": "John F Kennedy International Airport"
+    },
+    {
+      "gps_code": "KLAS",
+      "city": "Las Vegas",
+      "name": "Harry Reid International Airport"
+    },
+    {
+      "gps_code": "KLAX",
+      "city": "Los Angeles",
+      "name": "Los Angeles International Airport"
+    },
+    {
+      "gps_code": "KLGA",
+      "city": "New York",
+      "name": "LaGuardia Airport"
+    },
+    {
+      "gps_code": "KMCI",
+      "city": "Kansas City",
+      "name": "Kansas City International Airport"
+    },
+    {
+      "gps_code": "KMCO",
+      "city": "Orlando",
+      "name": "Orlando International Airport"
+    },
+    {
+      "gps_code": "KMDW",
+      "city": "Chicago",
+      "name": "Chicago Midway International Airport"
+    },
+    {
+      "gps_code": "KMEM",
+      "city": "Memphis",
+      "name": "Memphis International Airport"
+    },
+    {
+      "gps_code": "KMIA",
+      "city": "Miami",
+      "name": "Miami International Airport"
+    },
+    {
+      "gps_code": "KMKE",
+      "city": "Milwaukee",
+      "name": "General Mitchell International Airport"
+    },
+    {
+      "gps_code": "KMSP",
+      "city": "Minneapolis",
+      "name": "Minneapolis\u2013Saint Paul International Airport / Wold\u2013Chamberlain Field"
+    },
+    {
+      "gps_code": "KMSY",
+      "city": "New Orleans",
+      "name": "Louis Armstrong New Orleans International Airport"
+    },
+    {
+      "gps_code": "KOAK",
+      "city": "Oakland",
+      "name": "San Francisco Bay Oakland International Airport"
+    },
+    {
+      "gps_code": "KOKC",
+      "city": "Oklahoma City",
+      "name": "Will Rogers World Airport"
+    },
+    {
+      "gps_code": "KOMA",
+      "city": "Omaha",
+      "name": "Eppley Airfield"
+    },
+    {
+      "gps_code": "KONT",
+      "city": "Ontario",
+      "name": "Ontario International Airport"
+    },
+    {
+      "gps_code": "KORD",
+      "city": "Chicago",
+      "name": "Chicago O'Hare International Airport"
+    },
+    {
+      "gps_code": "KORF",
+      "city": "Norfolk",
+      "name": "Norfolk International Airport"
+    },
+    {
+      "gps_code": "KPBI",
+      "city": "West Palm Beach",
+      "name": "Palm Beach International Airport"
+    },
+    {
+      "gps_code": "KPDX",
+      "city": "Portland",
+      "name": "Portland International Airport"
+    },
+    {
+      "gps_code": "KPHL",
+      "city": "Philadelphia",
+      "name": "Philadelphia International Airport"
+    },
+    {
+      "gps_code": "KPHX",
+      "city": "Phoenix",
+      "name": "Phoenix Sky Harbor International Airport"
+    },
+    {
+      "gps_code": "KPIT",
+      "city": "Pittsburgh",
+      "name": "Pittsburgh International Airport"
+    },
+    {
+      "gps_code": "KPVD",
+      "city": "Warwick",
+      "name": "Theodore Francis Green State Airport"
+    },
+    {
+      "gps_code": "KPWM",
+      "city": "Portland",
+      "name": "Portland International Jetport"
+    },
+    {
+      "gps_code": "KRDU",
+      "city": "Raleigh/Durham",
+      "name": "Raleigh Durham International Airport"
+    },
+    {
+      "gps_code": "KRIC",
+      "city": "Richmond",
+      "name": "Richmond International Airport"
+    },
+    {
+      "gps_code": "KRNO",
+      "city": "Reno",
+      "name": "Reno Tahoe International Airport"
+    },
+    {
+      "gps_code": "KRSW",
+      "city": "Fort Myers",
+      "name": "Southwest Florida International Airport"
+    },
+    {
+      "gps_code": "KSAN",
+      "city": "San Diego",
+      "name": "San Diego International Airport"
+    },
+    {
+      "gps_code": "KSAT",
+      "city": "San Antonio",
+      "name": "San Antonio International Airport"
+    },
+    {
+      "gps_code": "KSAV",
+      "city": "Savannah",
+      "name": "Savannah Hilton Head International Airport"
+    },
+    {
+      "gps_code": "KSDF",
+      "city": "Louisville",
+      "name": "Louisville Muhammad Ali International Airport"
+    },
+    {
+      "gps_code": "KSEA",
+      "city": "Seattle",
+      "name": "Seattle\u2013Tacoma International Airport"
+    },
+    {
+      "gps_code": "KSFB",
+      "city": "Orlando",
+      "name": "Orlando Sanford International Airport"
+    },
+    {
+      "gps_code": "KSFO",
+      "city": "San Francisco",
+      "name": "San Francisco International Airport"
+    },
+    {
+      "gps_code": "KSJC",
+      "city": "San Jose",
+      "name": "Norman Y. Mineta San Jose International Airport"
+    },
+    {
+      "gps_code": "KSLC",
+      "city": "Salt Lake City",
+      "name": "Salt Lake City International Airport"
+    },
+    {
+      "gps_code": "KSMF",
+      "city": "Sacramento",
+      "name": "Sacramento International Airport"
+    },
+    {
+      "gps_code": "KSNA",
+      "city": "Santa Ana",
+      "name": "John Wayne Orange County International Airport"
+    },
+    {
+      "gps_code": "KSRQ",
+      "city": "Sarasota/Bradenton",
+      "name": "Sarasota Bradenton International Airport"
+    },
+    {
+      "gps_code": "KSTL",
+      "city": "St Louis",
+      "name": "St. Louis Lambert International Airport"
+    },
+    {
+      "gps_code": "KSYR",
+      "city": "Syracuse",
+      "name": "Syracuse Hancock International Airport"
+    },
+    {
+      "gps_code": "KTPA",
+      "city": "Tampa",
+      "name": "Tampa International Airport"
+    },
+    {
+      "gps_code": "KTUL",
+      "city": "Tulsa",
+      "name": "Tulsa International Airport"
+    },
+    {
+      "gps_code": "LATI",
+      "city": "Rinas",
+      "name": "Tirana International Airport Mother Teresa"
+    },
+    {
+      "gps_code": "LBBG",
+      "city": "Burgas",
+      "name": "Burgas Airport"
+    },
+    {
+      "gps_code": "LBSF",
+      "city": "Sofia",
+      "name": "Sofia Airport"
+    },
+    {
+      "gps_code": "LBWN",
+      "city": "Varna",
+      "name": "Varna Airport"
+    },
+    {
+      "gps_code": "LCLK",
+      "city": "Larnaca",
+      "name": "Larnaca International Airport"
+    },
+    {
+      "gps_code": "LDZA",
+      "city": "Velika Gorica",
+      "name": "Zagreb Franjo Tu\u0111man International Airport"
+    },
+    {
+      "gps_code": "LEAL",
+      "city": "Alicante",
+      "name": "Alicante-Elche Miguel Hern\u00e1ndez Airport"
+    },
+    {
+      "gps_code": "LEBL",
+      "city": "Barcelona",
+      "name": "Josep Tarradellas Barcelona-El Prat Airport"
+    },
+    {
+      "gps_code": "LEIB",
+      "city": "Ibiza (Eivissa)",
+      "name": "Ibiza Airport"
+    },
+    {
+      "gps_code": "LEMD",
+      "city": "Madrid",
+      "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport"
+    },
+    {
+      "gps_code": "LEMG",
+      "city": "M\u00e1laga",
+      "name": "M\u00e1laga-Costa del Sol Airport"
+    },
+    {
+      "gps_code": "LEPA",
+      "city": "Palma de Mallorca",
+      "name": "Palma de Mallorca Airport"
+    },
+    {
+      "gps_code": "LEST",
+      "city": "Santiago de Compostela",
+      "name": "Santiago-Rosal\u00eda de Castro Airport"
+    },
+    {
+      "gps_code": "LFBD",
+      "city": "Bordeaux/M\u00e9rignac",
+      "name": "Bordeaux-M\u00e9rignac Airport"
+    },
+    {
+      "gps_code": "LFBO",
+      "city": "Toulouse/Blagnac",
+      "name": "Toulouse-Blagnac Airport"
+    },
+    {
+      "gps_code": "LFLL",
+      "city": "Colombier-Saugnieu, Rh\u00f4ne",
+      "name": "Lyon Saint-Exup\u00e9ry Airport"
+    },
+    {
+      "gps_code": "LFML",
+      "city": "Marignane, Bouches-du-Rh\u00f4ne",
+      "name": "Marseille Provence Airport"
+    },
+    {
+      "gps_code": "LFMN",
+      "city": "Nice, Alpes-Maritimes",
+      "name": "Nice-C\u00f4te d'Azur Airport"
+    },
+    {
+      "gps_code": "LFPG",
+      "city": "Paris (Roissy-en-France, Val-d'Oise)",
+      "name": "Charles de Gaulle International Airport"
+    },
+    {
+      "gps_code": "LFPO",
+      "city": "Paris (Orly, Val-de-Marne)",
+      "name": "Paris-Orly Airport"
+    },
+    {
+      "gps_code": "LFSB",
+      "city": "Saint-Louis",
+      "name": "EuroAirport Basel-Mulhouse-Freiburg"
+    },
+    {
+      "gps_code": "LGAV",
+      "city": "Spata-Artemida",
+      "name": "Athens Eleftherios Venizelos International Airport"
+    },
+    {
+      "gps_code": "LGIR",
+      "city": "Heraklion",
+      "name": "Heraklion International Nikos Kazantzakis Airport"
+    },
+    {
+      "gps_code": "LGTS",
+      "city": "Thessaloniki",
+      "name": "Thessaloniki Macedonia International Airport"
+    },
+    {
+      "gps_code": "LHBP",
+      "city": "Budapest",
+      "name": "Budapest Liszt Ferenc International Airport"
+    },
+    {
+      "gps_code": "LIBD",
+      "city": "Bari",
+      "name": "Bari Karol Wojty\u0142a International Airport"
+    },
+    {
+      "gps_code": "LIBR",
+      "city": "Brindisi",
+      "name": "Brindisi Airport"
+    },
+    {
+      "gps_code": "LICC",
+      "city": "Catania",
+      "name": "Catania-Fontanarossa Airport"
+    },
+    {
+      "gps_code": "LICJ",
+      "city": "Palermo",
+      "name": "Falcone\u2013Borsellino Airport"
+    },
+    {
+      "gps_code": "LIEE",
+      "city": "Cagliari",
+      "name": "Cagliari Elmas Airport"
+    },
+    {
+      "gps_code": "LIMC",
+      "city": "Ferno (VA)",
+      "name": "Milan Malpensa International Airport"
+    },
+    {
+      "gps_code": "LIME",
+      "city": "Orio al Serio (BG)",
+      "name": "Milan Bergamo Airport / Antonio Locatelli Air Base"
+    },
+    {
+      "gps_code": "LIMF",
+      "city": "Caselle Torinese (TO)",
+      "name": "Turin Airport"
+    },
+    {
+      "gps_code": "LIMJ",
+      "city": "Genova (GE)",
+      "name": "Genoa Cristoforo Colombo Airport"
+    },
+    {
+      "gps_code": "LIPE",
+      "city": "Bologna",
+      "name": "Bologna Guglielmo Marconi Airport"
+    },
+    {
+      "gps_code": "LIPX",
+      "city": "Caselle (VR)",
+      "name": "Verona Villafranca Valerio Catullo Airport"
+    },
+    {
+      "gps_code": "LIPZ",
+      "city": "Venezia (VE)",
+      "name": "Venice Marco Polo Airport"
+    },
+    {
+      "gps_code": "LIRF",
+      "city": "Rome",
+      "name": "Rome\u2013Fiumicino Leonardo da Vinci International Airport"
+    },
+    {
+      "gps_code": "LIRN",
+      "city": "Napoli",
+      "name": "Naples International Airport"
+    },
+    {
+      "gps_code": "LIRP",
+      "city": "Pisa (PI)",
+      "name": "Pisa International Airport"
+    },
+    {
+      "gps_code": "LIRQ",
+      "city": "Firenze (FI)",
+      "name": "Florence Airport, Peretola"
+    },
+    {
+      "gps_code": "LJLJ",
+      "city": "Zgornji Brnik",
+      "name": "Ljubljana Jo\u017ee Pu\u010dnik Airport"
+    },
+    {
+      "gps_code": "LKPR",
+      "city": "Prague",
+      "name": "V\u00e1clav Havel Airport Prague"
+    },
+    {
+      "gps_code": "LLBG",
+      "city": "Tel Aviv",
+      "name": "Ben Gurion International Airport"
+    },
+    {
+      "gps_code": "LLER",
+      "city": "Eilat",
+      "name": "Ramon International Airport"
+    },
+    {
+      "gps_code": "LMML",
+      "city": "Valletta",
+      "name": "Malta International Airport"
+    },
+    {
+      "gps_code": "LOWW",
+      "city": "Vienna",
+      "name": "Vienna International Airport"
+    },
+    {
+      "gps_code": "LPFR",
+      "city": "Faro",
+      "name": "Faro Airport"
+    },
+    {
+      "gps_code": "LPMA",
+      "city": "Funchal",
+      "name": "Madeira International Airport Cristiano Ronaldo"
+    },
+    {
+      "gps_code": "LPPD",
+      "city": "Ponta Delgada",
+      "name": "Jo\u00e3o Paulo II Airport"
+    },
+    {
+      "gps_code": "LPPR",
+      "city": "Porto",
+      "name": "Francisco de S\u00e1 Carneiro Airport"
+    },
+    {
+      "gps_code": "LPPT",
+      "city": "Lisbon",
+      "name": "Lisbon Humberto Delgado Airport"
+    },
+    {
+      "gps_code": "LQSA",
+      "city": "Sarajevo",
+      "name": "Sarajevo International Airport"
+    },
+    {
+      "gps_code": "LROP",
+      "city": "Otopeni",
+      "name": "Bucharest Henri Coand\u0103 International Airport"
+    },
+    {
+      "gps_code": "LSGG",
+      "city": "Geneva",
+      "name": "Geneva Cointrin International Airport"
+    },
+    {
+      "gps_code": "LSZH",
+      "city": "Zurich",
+      "name": "Z\u00fcrich Airport"
+    },
+    {
+      "gps_code": "LTAC",
+      "city": "Ankara",
+      "name": "Esenbo\u011fa International Airport"
+    },
+    {
+      "gps_code": "LTAI",
+      "city": "Antalya",
+      "name": "Antalya International Airport"
+    },
+    {
+      "gps_code": "LTBJ",
+      "city": "Gaziemir",
+      "name": "Adnan Menderes International Airport"
+    },
+    {
+      "gps_code": "LTBS",
+      "city": "Dalaman",
+      "name": "Dalaman International Airport"
+    },
+    {
+      "gps_code": "LTDB",
+      "city": "Tarsus",
+      "name": "\u00c7ukurova International Airport"
+    },
+    {
+      "gps_code": "LTFE",
+      "city": "Bodrum",
+      "name": "Milas Bodrum International Airport"
+    },
+    {
+      "gps_code": "LTFJ",
+      "city": "Pendik, Istanbul",
+      "name": "Istanbul Sabiha G\u00f6k\u00e7en International Airport"
+    },
+    {
+      "gps_code": "LTFM",
+      "city": "Arnavutk\u00f6y, Istanbul",
+      "name": "\u0130stanbul Airport"
+    },
+    {
+      "gps_code": "LWSK",
+      "city": "Ilinden",
+      "name": "Skopje International Airport"
+    },
+    {
+      "gps_code": "LXGB",
+      "city": "Gibraltar",
+      "name": "Gibraltar Airport"
+    },
+    {
+      "gps_code": "LYBE",
+      "city": "Belgrade",
+      "name": "Belgrade Nikola Tesla Airport"
+    },
+    {
+      "gps_code": "LYPG",
+      "city": "Podgorica",
+      "name": "Podgorica Airport / Podgorica Golubovci Airbase"
+    },
+    {
+      "gps_code": "LZIB",
+      "city": "Bratislava",
+      "name": "M. R. \u0160tef\u00e1nik Airport"
+    },
+    {
+      "gps_code": "MBPV",
+      "city": "Providenciales",
+      "name": "Providenciales International Airport"
+    },
+    {
+      "gps_code": "MDLR",
+      "city": "La Romana",
+      "name": "Casa De Campo International Airport"
+    },
+    {
+      "gps_code": "MDPC",
+      "city": "Punta Cana",
+      "name": "Punta Cana International Airport"
+    },
+    {
+      "gps_code": "MDSD",
+      "city": "Santo Domingo",
+      "name": "Las Am\u00e9ricas International Airport"
+    },
+    {
+      "gps_code": "MGGT",
+      "city": "Guatemala City",
+      "name": "La Aurora Airport"
+    },
+    {
+      "gps_code": "MKJP",
+      "city": "Kingston",
+      "name": "Norman Manley International Airport"
+    },
+    {
+      "gps_code": "MMCZ",
+      "city": "Cozumel",
+      "name": "Cozumel International Airport"
+    },
+    {
+      "gps_code": "MMDO",
+      "city": "Durango",
+      "name": "General Guadalupe Victoria International Airport"
+    },
+    {
+      "gps_code": "MMGL",
+      "city": "Guadalajara",
+      "name": "Guadalajara International Airport"
+    },
+    {
+      "gps_code": "MMMD",
+      "city": "M\u00e9rida",
+      "name": "Manuel Crescencio Rej\u00f3n International Airport"
+    },
+    {
+      "gps_code": "MMMX",
+      "city": "Ciudad de M\u00e9xico",
+      "name": "Benito Ju\u00e1rez International Airport"
+    },
+    {
+      "gps_code": "MMMY",
+      "city": "Monterrey",
+      "name": "Monterrey International Airport"
+    },
+    {
+      "gps_code": "MMMZ",
+      "city": "Mazatl\u00e0n",
+      "name": "General Rafael Buelna International Airport"
+    },
+    {
+      "gps_code": "MMPR",
+      "city": "Puerto Vallarta",
+      "name": "Puerto Vallarta International Airport"
+    },
+    {
+      "gps_code": "MMSD",
+      "city": "San Jos\u00e9 del Cabo",
+      "name": "Los Cabos International Airport"
+    },
+    {
+      "gps_code": "MMSM",
+      "city": "Mexico City",
+      "name": "General Felipe \u00c1ngeles International Airport"
+    },
+    {
+      "gps_code": "MMTJ",
+      "city": "Tijuana",
+      "name": "General Abelardo L. Rodriguez International Airport"
+    },
+    {
+      "gps_code": "MMUN",
+      "city": "Canc\u00fan",
+      "name": "Canc\u00fan International Airport"
+    },
+    {
+      "gps_code": "MPTO",
+      "city": "Tocumen",
+      "name": "Tocumen International Airport"
+    },
+    {
+      "gps_code": "MRLB",
+      "city": "Liberia",
+      "name": "Guanacaste Airport"
+    },
+    {
+      "gps_code": "MROC",
+      "city": "San Jos\u00e9 (Alajuela)",
+      "name": "Juan Santamar\u00eda International Airport"
+    },
+    {
+      "gps_code": "MSLP",
+      "city": "San Salvador (San Luis Talpa)",
+      "name": "Monse\u00f1or \u00d3scar Arnulfo Romero International Airport"
+    },
+    {
+      "gps_code": "MTPP",
+      "city": "Port-au-Prince",
+      "name": "Toussaint Louverture International Airport"
+    },
+    {
+      "gps_code": "MUHA",
+      "city": "Havana",
+      "name": "Jos\u00e9 Mart\u00ed International Airport"
+    },
+    {
+      "gps_code": "MUVR",
+      "city": "Matanzas",
+      "name": "Juan Gualberto Gomez International Airport"
+    },
+    {
+      "gps_code": "MWCR",
+      "city": "George Town",
+      "name": "Owen Roberts International Airport"
+    },
+    {
+      "gps_code": "MYNN",
+      "city": "Nassau",
+      "name": "Lynden Pindling International Airport"
+    },
+    {
+      "gps_code": "MZBZ",
+      "city": "Belize City",
+      "name": "Philip S. W. Goldson International Airport"
+    },
+    {
+      "gps_code": "NTAA",
+      "city": "Papeete",
+      "name": "Faa'a International Airport"
+    },
+    {
+      "gps_code": "NVVV",
+      "city": "Port Vila",
+      "name": "Bauerfield International Airport"
+    },
+    {
+      "gps_code": "NZAA",
+      "city": "Auckland",
+      "name": "Auckland International Airport"
+    },
+    {
+      "gps_code": "NZCH",
+      "city": "Christchurch",
+      "name": "Christchurch International Airport"
+    },
+    {
+      "gps_code": "NZWN",
+      "city": "Wellington",
+      "name": "Wellington International Airport"
+    },
+    {
+      "gps_code": "OBBI",
+      "city": "Manama",
+      "name": "Bahrain International Airport"
+    },
+    {
+      "gps_code": "OEDF",
+      "city": "Ad Dammam",
+      "name": "King Fahd International Airport"
+    },
+    {
+      "gps_code": "OEDR",
+      "city": "Dhahran",
+      "name": "King Abdulaziz Air Base"
+    },
+    {
+      "gps_code": "OEJN",
+      "city": "Jeddah",
+      "name": "King Abdulaziz International Airport"
+    },
+    {
+      "gps_code": "OEMA",
+      "city": "Medina",
+      "name": "Prince Mohammad Bin Abdulaziz Airport"
+    },
+    {
+      "gps_code": "OERK",
+      "city": "Riyadh",
+      "name": "King Khaled International Airport"
+    },
+    {
+      "gps_code": "OIIE",
+      "city": "Tehran",
+      "name": "Imam Khomeini International Airport"
+    },
+    {
+      "gps_code": "OIII",
+      "city": "Tehran",
+      "name": "Mehrabad International Airport"
+    },
+    {
+      "gps_code": "OIMM",
+      "city": "Mashhad",
+      "name": "Mashhad International Airport"
+    },
+    {
+      "gps_code": "OISS",
+      "city": "Shiraz",
+      "name": "Shiraz Shahid Dastghaib International Airport"
+    },
+    {
+      "gps_code": "OJAI",
+      "city": "Amman",
+      "name": "Queen Alia International Airport"
+    },
+    {
+      "gps_code": "OKKK",
+      "city": "Kuwait City",
+      "name": "Kuwait International Airport"
+    },
+    {
+      "gps_code": "OLBA",
+      "city": "Beirut",
+      "name": "Beirut Rafic Hariri International Airport"
+    },
+    {
+      "gps_code": "OODQ",
+      "city": "Duqm",
+      "name": "Duqm International Airport"
+    },
+    {
+      "gps_code": "OMAA",
+      "city": "Abu Dhabi",
+      "name": "Zayed International Airport"
+    },
+    {
+      "gps_code": "OMDB",
+      "city": "Dubai",
+      "name": "Dubai International Airport"
+    },
+    {
+      "gps_code": "OMDW",
+      "city": "Jebel Ali",
+      "name": "Al Maktoum International Airport"
+    },
+    {
+      "gps_code": "OMSJ",
+      "city": "Sharjah",
+      "name": "Sharjah International Airport"
+    },
+    {
+      "gps_code": "OOMS",
+      "city": "Muscat",
+      "name": "Muscat International Airport"
+    },
+    {
+      "gps_code": "OPIS",
+      "city": "Attock",
+      "name": "Islamabad International Airport"
+    },
+    {
+      "gps_code": "OPKC",
+      "city": "Karachi",
+      "name": "Jinnah International Airport"
+    },
+    {
+      "gps_code": "OPLA",
+      "city": "Lahore",
+      "name": "Allama Iqbal International Airport"
+    },
+    {
+      "gps_code": "ORBI",
+      "city": "Baghdad",
+      "name": "Baghdad International Airport / New Al Muthana Air Base"
+    },
+    {
+      "gps_code": "OSDI",
+      "city": "Damascus",
+      "name": "Damascus International Airport"
+    },
+    {
+      "gps_code": "OTHH",
+      "city": "Doha",
+      "name": "Hamad International Airport"
+    },
+    {
+      "gps_code": "PANC",
+      "city": "Anchorage",
+      "name": "Ted Stevens Anchorage International Airport"
+    },
+    {
+      "gps_code": "PGUM",
+      "city": "Hag\u00e5t\u00f1a",
+      "name": "Antonio B. Won Pat International Airport"
+    },
+    {
+      "gps_code": "PHNL",
+      "city": "Honolulu, Oahu",
+      "name": "Daniel K Inouye International Airport"
+    },
+    {
+      "gps_code": "PHOG",
+      "city": "Kahului",
+      "name": "Kahului International Airport"
+    },
+    {
+      "gps_code": "RCKH",
+      "city": "Kaohsiung (Xiaogang)",
+      "name": "Kaohsiung International Airport"
+    },
+    {
+      "gps_code": "RCTP",
+      "city": "Taoyuan",
+      "name": "Taiwan Taoyuan International Airport"
+    },
+    {
+      "gps_code": "RJAA",
+      "city": "Narita",
+      "name": "Narita International Airport"
+    },
+    {
+      "gps_code": "RJBB",
+      "city": "Osaka",
+      "name": "Kansai International Airport"
+    },
+    {
+      "gps_code": "RJCC",
+      "city": "Sapporo",
+      "name": "New Chitose Airport"
+    },
+    {
+      "gps_code": "RJFF",
+      "city": "Fukuoka",
+      "name": "Fukuoka Airport"
+    },
+    {
+      "gps_code": "RJFK",
+      "city": "Kagoshima",
+      "name": "Kagoshima Airport"
+    },
+    {
+      "gps_code": "RJGG",
+      "city": "Tokoname",
+      "name": "Chubu Centrair International Airport"
+    },
+    {
+      "gps_code": "RJOO",
+      "city": "Osaka",
+      "name": "Osaka International Airport"
+    },
+    {
+      "gps_code": "RJSS",
+      "city": "Natori",
+      "name": "Sendai Airport"
+    },
+    {
+      "gps_code": "RJTT",
+      "city": "Tokyo",
+      "name": "Tokyo Haneda International Airport"
+    },
+    {
+      "gps_code": "RJTY",
+      "city": "Fussa",
+      "name": "Yokota Air Base"
+    },
+    {
+      "gps_code": "RKJB",
+      "city": "Muan (Piseo-ri)",
+      "name": "Muan International Airport"
+    },
+    {
+      "gps_code": "RKPC",
+      "city": "Jeju City",
+      "name": "Jeju International Airport"
+    },
+    {
+      "gps_code": "RKPK",
+      "city": "Busan",
+      "name": "Gimhae International Airport"
+    },
+    {
+      "gps_code": "RKSI",
+      "city": "Seoul",
+      "name": "Incheon International Airport"
+    },
+    {
+      "gps_code": "RKSS",
+      "city": "Seoul",
+      "name": "Gimpo International Airport"
+    },
+    {
+      "gps_code": "ROAH",
+      "city": "Naha",
+      "name": "Naha Airport / JASDF Naha Air Base"
+    },
+    {
+      "gps_code": "RODN",
+      "city": "Okinawa",
+      "name": "Kadena Air Base"
+    },
+    {
+      "gps_code": "RPLL",
+      "city": "Manila (Pasay)",
+      "name": "Ninoy Aquino International Airport"
+    },
+    {
+      "gps_code": "RPMD",
+      "city": "Davao",
+      "name": "Francisco Bangoy International Airport"
+    },
+    {
+      "gps_code": "RPVM",
+      "city": "Lapu-Lapu City",
+      "name": "Mactan Cebu International Airport"
+    },
+    {
+      "gps_code": "SABE",
+      "city": "Buenos Aires",
+      "name": "Jorge Newbery Airpark"
+    },
+    {
+      "gps_code": "SAEZ",
+      "city": "Buenos Aires (Ezeiza)",
+      "name": "Minister Pistarini International Airport"
+    },
+    {
+      "gps_code": "SBBE",
+      "city": "Bel\u00e9m",
+      "name": "Val de Cans/J\u00falio Cezar Ribeiro International Airport"
+    },
+    {
+      "gps_code": "SBBR",
+      "city": "Bras\u00edlia",
+      "name": "Presidente Juscelino Kubitschek International Airport"
+    },
+    {
+      "gps_code": "SBCF",
+      "city": "Belo Horizonte",
+      "name": "Tancredo Neves International Airport"
+    },
+    {
+      "gps_code": "SBEG",
+      "city": "Manaus",
+      "name": "Eduardo Gomes International Airport"
+    },
+    {
+      "gps_code": "SBFL",
+      "city": "Florian\u00f3polis",
+      "name": "Herc\u00edlio Luz International Airport"
+    },
+    {
+      "gps_code": "SBFZ",
+      "city": "Fortaleza",
+      "name": "Pinto Martins International Airport"
+    },
+    {
+      "gps_code": "SBGL",
+      "city": "Rio De Janeiro",
+      "name": "Rio Gale\u00e3o \u2013 Tom Jobim International Airport"
+    },
+    {
+      "gps_code": "SBGR",
+      "city": "S\u00e3o Paulo",
+      "name": "Guarulhos - Governador Andr\u00e9 Franco Montoro International Airport"
+    },
+    {
+      "gps_code": "SBPS",
+      "city": "Porto Seguro",
+      "name": "Porto Seguro Airport"
+    },
+    {
+      "gps_code": "SBSV",
+      "city": "Salvador",
+      "name": "Deputado Luiz Eduardo Magalh\u00e3es International Airport"
+    },
+    {
+      "gps_code": "SBVT",
+      "city": "Vit\u00f3ria",
+      "name": "Eurico de Aguiar Salles Airport"
+    },
+    {
+      "gps_code": "SCEL",
+      "city": "Santiago",
+      "name": "Comodoro Arturo Merino Ben\u00edtez International Airport"
+    },
+    {
+      "gps_code": "SEGU",
+      "city": "Guayaquil",
+      "name": "Jos\u00e9 Joaqu\u00edn de Olmedo International Airport"
+    },
+    {
+      "gps_code": "SEQM",
+      "city": "Quito",
+      "name": "Mariscal Sucre International Airport"
+    },
+    {
+      "gps_code": "SGAS",
+      "city": "Asunci\u00f3n",
+      "name": "Silvio Pettirossi International Airport"
+    },
+    {
+      "gps_code": "SGEN",
+      "city": "Encarnaci\u00f3n",
+      "name": "Lieutenant Amin Ayub Gonz\u00e1lez International Airport"
+    },
+    {
+      "gps_code": "SGES",
+      "city": "Ciudad del Este",
+      "name": "Guaran\u00ed International Airport"
+    },
+    {
+      "gps_code": "SGME",
+      "city": "Mariscal Estigarribia",
+      "name": "Doctor Luis Maria Arga\u00f1a International Airport"
+    },
+    {
+      "gps_code": "SKBO",
+      "city": "Bogota",
+      "name": "El Dorado International Airport"
+    },
+    {
+      "gps_code": "SLVR",
+      "city": "Santa Cruz",
+      "name": "Viru Viru International Airport"
+    },
+    {
+      "gps_code": "SMJP",
+      "city": "Zandery",
+      "name": "Johan Adolf Pengel International Airport"
+    },
+    {
+      "gps_code": "SOCA",
+      "city": "Matoury",
+      "name": "Cayenne \u2013 F\u00e9lix Ebou\u00e9 Airport"
+    },
+    {
+      "gps_code": "SPJC",
+      "city": "Lima",
+      "name": "Jorge Ch\u00e1vez International Airport"
+    },
+    {
+      "gps_code": "SPZO",
+      "city": "Cusco",
+      "name": "Alejandro Velasco Astete International Airport"
+    },
+    {
+      "gps_code": "SUMU",
+      "city": "Ciudad de la Costa",
+      "name": "Carrasco General Ces\u00e1reo L. Berisso International Airport"
+    },
+    {
+      "gps_code": "SVBC",
+      "city": "Barcelona",
+      "name": "General Jos\u00e9 Antonio Anzoategui International Airport"
+    },
+    {
+      "gps_code": "SVMI",
+      "city": "Maiquet\u00eda",
+      "name": "Maiquet\u00eda Sim\u00f3n Bol\u00edvar International Airport"
+    },
+    {
+      "gps_code": "TFFF",
+      "city": "Fort-de-France",
+      "name": "Martinique Aim\u00e9 C\u00e9saire International Airport"
+    },
+    {
+      "gps_code": "TFFR",
+      "city": "Pointe-\u00e0-Pitre",
+      "name": "Guadeloupe - Maryse Cond\u00e9 International Airport"
+    },
+    {
+      "gps_code": "TJSJ",
+      "city": "San Juan",
+      "name": "Luis Munoz Marin International Airport"
+    },
+    {
+      "gps_code": "TLPL",
+      "city": "Vieux Fort",
+      "name": "Hewanorra International Airport"
+    },
+    {
+      "gps_code": "TNCA",
+      "city": "Oranjestad",
+      "name": "Queen Beatrix International Airport"
+    },
+    {
+      "gps_code": "TNCB",
+      "city": "Kralendijk",
+      "name": "Flamingo International Airport"
+    },
+    {
+      "gps_code": "TNCC",
+      "city": "Willemstad",
+      "name": "Hato International Airport"
+    },
+    {
+      "gps_code": "TNCM",
+      "city": "Sint Maarten",
+      "name": "Princess Juliana International Airport"
+    },
+    {
+      "gps_code": "UAAA",
+      "city": "Almaty",
+      "name": "Almaty International Airport"
+    },
+    {
+      "gps_code": "UACC",
+      "city": "Astana",
+      "name": "Nursultan Nazarbayev International Airport"
+    },
+    {
+      "gps_code": "UCFM",
+      "city": "Bishkek",
+      "name": "Manas International Airport"
+    },
+    {
+      "gps_code": "UBBB",
+      "city": "Baku",
+      "name": "Heydar Aliyev International Airport"
+    },
+    {
+      "gps_code": "UDYZ",
+      "city": "Yerevan",
+      "name": "Zvartnots International Airport"
+    },
+    {
+      "gps_code": "UGTB",
+      "city": "Tbilisi",
+      "name": "Tbilisi International Airport"
+    },
+    {
+      "gps_code": "UHWW",
+      "city": "Artyom",
+      "name": "Vladivostok International Airport"
+    },
+    {
+      "gps_code": "UKBB",
+      "city": "Boryspil",
+      "name": "Boryspil International Airport"
+    },
+    {
+      "gps_code": "UKLL",
+      "city": "Lviv",
+      "name": "Lviv International Airport"
+    },
+    {
+      "gps_code": "ULLI",
+      "city": "St. Petersburg",
+      "name": "Pulkovo Airport"
+    },
+    {
+      "gps_code": "UMMS",
+      "city": "Minsk",
+      "name": "Minsk National Airport"
+    },
+    {
+      "gps_code": "UNKL",
+      "city": "Krasnoyarsk",
+      "name": "Krasnoyarsk International Airport"
+    },
+    {
+      "gps_code": "UNNT",
+      "city": "Novosibirsk",
+      "name": "Novosibirsk Tolmachevo Airport"
+    },
+    {
+      "gps_code": "URRP",
+      "city": "Rostov-on-Don",
+      "name": "Platov International Airport"
+    },
+    {
+      "gps_code": "URSS",
+      "city": "Sochi",
+      "name": "Sochi International Airport"
+    },
+    {
+      "gps_code": "USSS",
+      "city": "Yekaterinburg",
+      "name": "Koltsovo Airport"
+    },
+    {
+      "gps_code": "UTAA",
+      "city": "Ashgabat",
+      "name": "Ashgabat International Airport"
+    },
+    {
+      "gps_code": "UTTT",
+      "city": "Tashkent",
+      "name": "Tashkent International Airport"
+    },
+    {
+      "gps_code": "UUBW",
+      "city": "Moscow",
+      "name": "Zhukovsky International Airport"
+    },
+    {
+      "gps_code": "UUDD",
+      "city": "Moscow",
+      "name": "Domodedovo International Airport"
+    },
+    {
+      "gps_code": "UUEE",
+      "city": "Moscow",
+      "name": "Sheremetyevo International Airport"
+    },
+    {
+      "gps_code": "UUWW",
+      "city": "Moscow",
+      "name": "Vnukovo International Airport"
+    },
+    {
+      "gps_code": "UWKD",
+      "city": "Kazan",
+      "name": "Kazan International Airport"
+    },
+    {
+      "gps_code": "UWSG",
+      "city": "Saratov",
+      "name": "Gagarin International Airport"
+    },
+    {
+      "gps_code": "UWUU",
+      "city": "Ufa",
+      "name": "Ufa International Airport"
+    },
+    {
+      "gps_code": "UWWW",
+      "city": "Samara",
+      "name": "Kurumoch International Airport"
+    },
+    {
+      "gps_code": "VABB",
+      "city": "Mumbai",
+      "name": "Chhatrapati Shivaji International Airport"
+    },
+    {
+      "gps_code": "VAHS",
+      "city": "Rajkot",
+      "name": "Rajkot International Airport"
+    },
+    {
+      "gps_code": "VCBI",
+      "city": "Colombo",
+      "name": "Bandaranaike International Colombo Airport"
+    },
+    {
+      "gps_code": "VCRI",
+      "city": "Mattala",
+      "name": "Mattala Rajapaksa International Airport"
+    },
+    {
+      "gps_code": "VDPP",
+      "city": "Phnom Penh (Pou Senchey)",
+      "name": "Phnom Penh International Airport"
+    },
+    {
+      "gps_code": "VDSA",
+      "city": "Siem Reap",
+      "name": "Siem Reap-Angkor International Airport"
+    },
+    {
+      "gps_code": "VECC",
+      "city": "Kolkata",
+      "name": "Netaji Subhash Chandra Bose International Airport"
+    },
+    {
+      "gps_code": "VGHS",
+      "city": "Dhaka",
+      "name": "Hazrat Shahjalal International Airport"
+    },
+    {
+      "gps_code": "VHHH",
+      "city": "Hong Kong",
+      "name": "Hong Kong International Airport"
+    },
+    {
+      "gps_code": "VIDP",
+      "city": "New Delhi",
+      "name": "Indira Gandhi International Airport"
+    },
+    {
+      "gps_code": "VMMC",
+      "city": "Nossa Senhora do Carmo",
+      "name": "Macau International Airport"
+    },
+    {
+      "gps_code": "VNKT",
+      "city": "Kathmandu",
+      "name": "Tribhuvan International Airport"
+    },
+    {
+      "gps_code": "VOBL",
+      "city": "Bangalore",
+      "name": "Kempegowda International Airport"
+    },
+    {
+      "gps_code": "VOCI",
+      "city": "Kochi",
+      "name": "Cochin International Airport"
+    },
+    {
+      "gps_code": "VOGA",
+      "city": "Mopa",
+      "name": "Manohar International Airport"
+    },
+    {
+      "gps_code": "VOGO",
+      "city": "Vasco da Gama",
+      "name": "Dabolim Airport"
+    },
+    {
+      "gps_code": "VOHS",
+      "city": "Hyderabad",
+      "name": "Rajiv Gandhi International Airport"
+    },
+    {
+      "gps_code": "VOMM",
+      "city": "Chennai",
+      "name": "Chennai International Airport"
+    },
+    {
+      "gps_code": "VOTV",
+      "city": "Thiruvananthapuram",
+      "name": "Thiruvananthapuram International Airport"
+    },
+    {
+      "gps_code": "VRMM",
+      "city": "Mal\u00e9",
+      "name": "Mal\u00e9 International Airport"
+    },
+    {
+      "gps_code": "VTBD",
+      "city": "Bangkok",
+      "name": "Don Mueang International Airport"
+    },
+    {
+      "gps_code": "VTBS",
+      "city": "Bangkok",
+      "name": "Suvarnabhumi Airport"
+    },
+    {
+      "gps_code": "VTCC",
+      "city": "Chiang Mai",
+      "name": "Chiang Mai International Airport"
+    },
+    {
+      "gps_code": "VTSP",
+      "city": "Phuket",
+      "name": "Phuket International Airport"
+    },
+    {
+      "gps_code": "VVNB",
+      "city": "Hanoi (Soc Son)",
+      "name": "Noi Bai International Airport"
+    },
+    {
+      "gps_code": "VVTS",
+      "city": "Ho Chi Minh City",
+      "name": "Tan Son Nhat International Airport"
+    },
+    {
+      "gps_code": "VYMD",
+      "city": "Mandalay",
+      "name": "Mandalay International Airport"
+    },
+    {
+      "gps_code": "VYYY",
+      "city": "Yangon",
+      "name": "Yangon International Airport"
+    },
+    {
+      "gps_code": "WAAA",
+      "city": "Ujung Pandang",
+      "name": "Hasanuddin International Airport"
+    },
+    {
+      "gps_code": "WADD",
+      "city": "Kuta, Badung",
+      "name": "Denpasar I Gusti Ngurah Rai International Airport"
+    },
+    {
+      "gps_code": "WAJJ",
+      "city": "Sentani",
+      "name": "Dortheys Hiyo Eluay International Airport"
+    },
+    {
+      "gps_code": "WALL",
+      "city": "Balikpapan",
+      "name": "Sultan Aji Muhammad Sulaiman Sepinggan International Airport"
+    },
+    {
+      "gps_code": "WARR",
+      "city": "Surabaya",
+      "name": "Juanda International Airport"
+    },
+    {
+      "gps_code": "WBSB",
+      "city": "Bandar Seri Begawan",
+      "name": "Brunei International Airport"
+    },
+    {
+      "gps_code": "WIII",
+      "city": "Jakarta",
+      "name": "Soekarno-Hatta International Airport"
+    },
+    {
+      "gps_code": "WIMM",
+      "city": "Beringin",
+      "name": "Kualanamu International Airport"
+    },
+    {
+      "gps_code": "WMKK",
+      "city": "Sepang",
+      "name": "Kuala Lumpur International Airport"
+    },
+    {
+      "gps_code": "WSSS",
+      "city": "Singapore",
+      "name": "Singapore Changi Airport"
+    },
+    {
+      "gps_code": "YBBN",
+      "city": "Brisbane",
+      "name": "Brisbane International Airport"
+    },
+    {
+      "gps_code": "YMML",
+      "city": "Melbourne",
+      "name": "Melbourne Airport"
+    },
+    {
+      "gps_code": "YPAD",
+      "city": "Adelaide",
+      "name": "Adelaide International Airport"
+    },
+    {
+      "gps_code": "YPDN",
+      "city": "Darwin",
+      "name": "Darwin International Airport / RAAF Darwin"
+    },
+    {
+      "gps_code": "YPPH",
+      "city": "Perth",
+      "name": "Perth International Airport"
+    },
+    {
+      "gps_code": "YSSY",
+      "city": "Sydney (Mascot)",
+      "name": "Sydney Kingsford Smith International Airport"
+    },
+    {
+      "gps_code": "ZBAA",
+      "city": "Beijing",
+      "name": "Beijing Capital International Airport"
+    },
+    {
+      "gps_code": "ZBAD",
+      "city": "Beijing",
+      "name": "Beijing Daxing International Airport"
+    },
+    {
+      "gps_code": "ZBHH",
+      "city": "Hohhot",
+      "name": "Hohhot Baita International Airport"
+    },
+    {
+      "gps_code": "ZBTJ",
+      "city": "Tianjin",
+      "name": "Tianjin Binhai International Airport"
+    },
+    {
+      "gps_code": "ZBYN",
+      "city": "Taiyuan",
+      "name": "Taiyuan Wusu International Airport"
+    },
+    {
+      "gps_code": "ZGGG",
+      "city": "Guangzhou (Huadu)",
+      "name": "Guangzhou Baiyun International Airport"
+    },
+    {
+      "gps_code": "ZGHA",
+      "city": "Changsha (Changsha)",
+      "name": "Changsha Huanghua International Airport"
+    },
+    {
+      "gps_code": "ZGKL",
+      "city": "Guilin (Lingui)",
+      "name": "Guilin Liangjiang International Airport"
+    },
+    {
+      "gps_code": "ZGNN",
+      "city": "Nanning (Jiangnan)",
+      "name": "Nanning Wuxu Airport"
+    },
+    {
+      "gps_code": "ZGSZ",
+      "city": "Shenzhen (Bao'an)",
+      "name": "Shenzhen Bao'an International Airport"
+    },
+    {
+      "gps_code": "ZHCC",
+      "city": "Zhengzhou",
+      "name": "Zhengzhou Xinzheng International Airport"
+    },
+    {
+      "gps_code": "ZHEC",
+      "city": "Ezhou",
+      "name": "Ezhou Huahu Airport"
+    },
+    {
+      "gps_code": "ZHHH",
+      "city": "Wuhan (Huangpi)",
+      "name": "Wuhan Tianhe International Airport"
+    },
+    {
+      "gps_code": "ZJHK",
+      "city": "Haikou (Meilan)",
+      "name": "Haikou Meilan International Airport"
+    },
+    {
+      "gps_code": "ZJSY",
+      "city": "Sanya (Tianya)",
+      "name": "Sanya Phoenix International Airport"
+    },
+    {
+      "gps_code": "ZKPY",
+      "city": "Pyongyang",
+      "name": "Pyongyang Sunan International Airport"
+    },
+    {
+      "gps_code": "ZLLL",
+      "city": "Lanzhou (Yongdeng)",
+      "name": "Lanzhou Zhongchuan International Airport"
+    },
+    {
+      "gps_code": "ZLXY",
+      "city": "Xianyang (Weicheng)",
+      "name": "Xi'an Xianyang International Airport"
+    },
+    {
+      "gps_code": "ZMCK",
+      "city": "Ulaanbaatar (Sergelen)",
+      "name": "Ulaanbaatar Chinggis Khaan International Airport"
+    },
+    {
+      "gps_code": "ZPPP",
+      "city": "Kunming",
+      "name": "Kunming Changshui International Airport"
+    },
+    {
+      "gps_code": "ZSAM",
+      "city": "Xiamen",
+      "name": "Xiamen Gaoqi International Airport"
+    },
+    {
+      "gps_code": "ZSCN",
+      "city": "Nanchang",
+      "name": "Nanchang Changbei International Airport"
+    },
+    {
+      "gps_code": "ZSFZ",
+      "city": "Fuzhou (Changle)",
+      "name": "Fuzhou Changle International Airport"
+    },
+    {
+      "gps_code": "ZSHC",
+      "city": "Hangzhou",
+      "name": "Hangzhou Xiaoshan International Airport"
+    },
+    {
+      "gps_code": "ZSJN",
+      "city": "Jinan (Licheng)",
+      "name": "Jinan Yaoqiang International Airport"
+    },
+    {
+      "gps_code": "ZSNB",
+      "city": "Ningbo",
+      "name": "Ningbo Lishe International Airport"
+    },
+    {
+      "gps_code": "ZSNJ",
+      "city": "Nanjing",
+      "name": "Nanjing Lukou International Airport"
+    },
+    {
+      "gps_code": "ZSPD",
+      "city": "Shanghai (Pudong)",
+      "name": "Shanghai Pudong International Airport"
+    },
+    {
+      "gps_code": "ZSQD",
+      "city": "Qingdao (Jiaozhou)",
+      "name": "Qingdao Jiaodong International Airport"
+    },
+    {
+      "gps_code": "ZSSS",
+      "city": "Shanghai (Minhang)",
+      "name": "Shanghai Hongqiao International Airport"
+    },
+    {
+      "gps_code": "ZSWZ",
+      "city": "Wenzhou (Longwan)",
+      "name": "Wenzhou Longwan International Airport"
+    },
+    {
+      "gps_code": "ZSYT",
+      "city": "Yantai",
+      "name": "Yantai Penglai International Airport"
+    },
+    {
+      "gps_code": "ZUCK",
+      "city": "Chongqing",
+      "name": "Chongqing Jiangbei International Airport"
+    },
+    {
+      "gps_code": "ZUGY",
+      "city": "Guiyang (Nanming)",
+      "name": "Guiyang Longdongbao International Airport"
+    },
+    {
+      "gps_code": "ZUTF",
+      "city": "Chengdu (Jianyang)",
+      "name": "Chengdu Tianfu International Airport"
+    },
+    {
+      "gps_code": "ZUUU",
+      "city": "Chengdu (Shuangliu)",
+      "name": "Chengdu Shuangliu International Airport"
+    },
+    {
+      "gps_code": "ZWWW",
+      "city": "\u00dcr\u00fcmqi",
+      "name": "\u00dcr\u00fcmqi Diwopu International Airport"
+    },
+    {
+      "gps_code": "ZYCC",
+      "city": "Changchun",
+      "name": "Changchun Longjia International Airport"
+    },
+    {
+      "gps_code": "ZYHB",
+      "city": "Harbin",
+      "name": "Harbin Taiping International Airport"
+    },
+    {
+      "gps_code": "ZYTL",
+      "city": "Dalian (Ganjingzi)",
+      "name": "Dalian Zhoushuizi International Airport"
+    },
+    {
+      "gps_code": "ZYTX",
+      "city": "Hunnan, Shenyang",
+      "name": "Shenyang Taoxian International Airport"
+    }
+  ]
