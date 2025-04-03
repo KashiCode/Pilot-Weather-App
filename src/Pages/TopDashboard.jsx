@@ -5,7 +5,7 @@ import Dropdown from "../Components/Dropdown";
 
 
 
-const API_KEY = "fea9b6cd12a559d291134b1904bc1281"; // OpenWeather API key goes here. 
+const API_KEY = "fea9b6cd12a559d291134b1904bc1281"; // OpenWeather API key goes here.
 const airports = [
   { code: "London", name: "London Heathrow" },
   { code: "Paris", name: "Paris Charles de Gaulle" },
