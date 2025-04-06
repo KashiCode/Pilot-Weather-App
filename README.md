@@ -3,14 +3,8 @@
 
 
 ![Dashboard](https://i.imgur.com/m5B5Xge.png)  
-🔗 [View Full Image](https://i.imgur.com/m5B5Xge.png)
-
 ---
-
 ![Forecast](https://i.imgur.com/iaPiKNT.png)  
-🔗 [View Full Image](https://i.imgur.com/iaPiKNT.png)
-
 ---
-
 ![Mobile View](https://i.imgur.com/rxQsJn4.png)  
-🔗 [View Full Image](https://i.imgur.com/rxQsJn4.png)
+
