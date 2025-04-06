@@ -1,13 +1,16 @@
-# React + Vite
+# Pilot weather application built using React + Vite. 
+# Use `npm install` followed by `npm run dev` to access the website locally. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+![Dashboard](https://i.imgur.com/m5B5Xge.png)  
+🔗 [View Full Image](https://i.imgur.com/m5B5Xge.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+![Forecast](https://i.imgur.com/iaPiKNT.png)  
+🔗 [View Full Image](https://i.imgur.com/iaPiKNT.png)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-lllllll
+---
+
+![Mobile View](https://i.imgur.com/rxQsJn4.png)  
+🔗 [View Full Image](https://i.imgur.com/rxQsJn4.png)
