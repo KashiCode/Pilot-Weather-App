@@ -1,4 +1,4 @@
-### Pilot weather application built using React + Vite. 
+### Pilot weather application built using React + Vite. Using openweatherAPI, AVWX.
 ### Use `npm install` followed by `npm run dev` to access the website locally. 
 
 
