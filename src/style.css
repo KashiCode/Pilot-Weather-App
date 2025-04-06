@@ -494,6 +494,11 @@
     .navbar__nav-links {
         display: none;
     }
+
+    /*dropdown mobile slight adjustment*/
+    .dropdown{
+        margin-left:5rem;
+    }
 }
 
 

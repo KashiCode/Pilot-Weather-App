@@ -3,40 +3,6 @@ import WeatherDetails from "../Components/WeatherDetails";
 import SideBar from "../Components/SideBar";
 import Dropdown from "../Components/Dropdown";
 
-const API_KEY = "fea9b6cd12a559d291134b1904bc1281";
-
-const DashboardPilot = ({ selectedAirport, setSelectedAirport, airports }) => {
-  const [weather, setWeather] = useState(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setLoading(true);
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${selectedAirport.city}&appid=${API_KEY}&units=metric`)
-      .then((response) => response.json())
-      .then((data) => {
-        if (data.cod === 200 && data.main) {
-          setWeather({
-            temp: data.main.temp,
-            feelsLike: data.main.feels_like,
-            humidity: data.main.humidity,
-            windSpeed: data.wind.speed,
-            uvIndex: 4, // Placeholder
-            visibility: data.visibility ? data.visibility / 1000 : "N/A",
-            description: data.weather[0].description,
-            icon: data.weather[0].icon,
-          });
-        } else {
-          setWeather(null);
-        }
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error fetching weather data:", error);
-        setWeather(null);
-        setLoading(false);
-      });
-  }, [selectedAirport]);
-
   return (
     <div>
       {/* Navbar */}
