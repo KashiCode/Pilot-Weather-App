@@ -9,7 +9,10 @@ const Dropdown = ({ airports, setSelectedAirport }) => {
       </label>
       <select
         className="dropdown__select"
-        onChange={(e) => setSelectedAirport(e.target.value)}
+        onChange={(e) => {
+          const selected = airports.find((airport) => airport.code === e.target.value);
+          setSelectedAirport(selected);
+        }}
       >
         {airports.map((airport) => (
           <option key={airport.code} value={airport.code}>
