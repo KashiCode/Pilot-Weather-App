@@ -1,4 +1,4 @@
-### Pilot weather application built using React + Vite. Using openweatherAPI, AVWX.
+### Pilot weather application designed using Figma and built using React + Vite. Uses the openweatherAPI and AVWX API.
 ### Use `npm install` followed by `npm run dev` in the console to access the website locally. 
 
 
