@@ -2,7 +2,7 @@
 ### Use `npm install` followed by `npm run dev` in the console to access the website locally. 
 
 
-![Dashboard](https://i.imgur.com/m5B5Xge.png)  
+![Dashboard](https://i.imgur.com/6QdHb6G.jpeg)  
 ---
 ![Forecast](https://i.imgur.com/iaPiKNT.png)  
 ---
