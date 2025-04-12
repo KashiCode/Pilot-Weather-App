@@ -8,4 +8,5 @@
 ---
 ![Mobile View](https://i.imgur.com/rxQsJn4.png)  
 ---
-![Weather Map](https://i.imgur.com/l8Sxs0T.png)  
+![WeatherMap](https://i.imgur.com/1T4VkQN.jpeg)
+
